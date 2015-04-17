@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expoterMappings>
+	<expoterMapping>
+		<type>FlatXml</type>
+		<className>com.github.ginrye.out.exporter.FlatXmlExporter</className>
+	</expoterMapping>
+    <expoterMapping>
+        <type>XLS</type>
+        <className>com.github.ginrye.out.exporter.XLSExporter</className>
+    </expoterMapping>
+</expoterMappings>

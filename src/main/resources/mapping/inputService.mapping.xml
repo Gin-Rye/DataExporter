@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inputServiceMappings>
+    <inputServiceMapping>
+        <type>DB</type>
+        <className>com.github.ginrye.input.DBInputService</className>
+        <contructor>
+            <properties>
+                <property>
+                    <name>dbms</name>
+                    <className>java.lang.String</className>
+                </property>
+                <property>
+                    <name>host</name>
+                    <className>java.lang.Integer</className>
+                </property>
+                <property>
+                    <name>port</name>
+                    <className>java.lang.String</className>
+                </property>
+                <property>
+                    <name>instance</name>
+                    <className>java.lang.String</className>
+                </property>
+                <property>
+                    <name>username</name>
+                    <className>java.lang.String</className>
+                </property>
+                <property>
+                    <name>password</name>
+                    <className>java.lang.String</className>
+                </property>
+           </properties>
+        </contructor>
+        <query>
+            <command>
+                <className>java.lang.String</className>
+            </command>
+        </query>
+        <return>
+            <resultStore>
+                <className>com.github.ginrye.base.resultstore.DBResultStore</className>
+            </resultStore>
+        </return>
+    </inputServiceMapping>
+</inputServiceMappings>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outputServiceMappings>
+    <outputtServiceMapping>
+        <type>FILE</type>
+        <className>com.github.ginrye.output.FileOutputService</className>
+        <contructor>
+            <properties>
+                <property>
+                    <name>path</name>
+                    <className>java.lang.String</className>
+                </property>
+           </properties>
+        </contructor>
+    </outputtServiceMapping>
+</outputServiceMappings>

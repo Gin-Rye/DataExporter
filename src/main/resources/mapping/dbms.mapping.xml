@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbmsMappings>
+	<dbmsMapping>
+		<type>MYSQL</type>
+		<driverClassName>com.mysql.jdbc.Driver</driverClassName>
+		<connectionUrlTemplate>jdbc:mysql://${host}:${port}/${instance}</connectionUrlTemplate>
+	</dbmsMapping>
+	<dbmsMapping>
+		<type>ORACLE</type>
+		<driverClassName>oracle.jdbc.driver.OracleDriver</driverClassName>
+		<connectionUrlTemplate>jdbc:oracle:thin:@//${host}:${port}/${instance}</connectionUrlTemplate>
+	</dbmsMapping>
+</dbmsMappings>

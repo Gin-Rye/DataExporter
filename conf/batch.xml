@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <queries>
+        <query>
+            <tableName>tb_stock_info_market</tableName>
+            <command>select * from tb_stock_info_market</command>
+        </query>
+        <query>
+            <tableName>tb_stock_info_market_code</tableName>
+            <command>select * from tb_stock_info_market_code</command>
+        </query>
+        <query>
+            <tableName>tb_stock_info_stock</tableName>
+            <command>select * from tb_stock_info_stock</command>
+        </query>
+        <query>
+            <tableName>tb_stock_realtime_market</tableName>
+            <command>select * from tb_stock_realtime_market</command>
+        </query>
+    </queries>
+</configuration>
